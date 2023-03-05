@@ -10,35 +10,40 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__logo-wrapper">
-            <img class="logo" src="./images/logo.svg" alt="Logo">
-        </div>
-
-        <div class="header__wrapper">
-            <div class="header__menu-wrapper">
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Главная</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Курсы</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Расписание</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Преподаватели</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Рассылка</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Контакты</a>
-                    </li>
-                </ul>
+        <div class="header__box">
+            <div class="header__logo-wrapper">
+                <img class="logo" src="./images/logo.svg" alt="Logo">
             </div>
-            <div class="header__login-wrapper">
-                <button class="button">Зайти в кабинет</button>
+
+            <div class="header__wrapper">
+                <div class="header__menu-wrapper">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Курсы</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Расписание</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Преподаватели</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Рассылка</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__login-wrapper">
+                    <button class="button">Зайти в кабинет</button>
+                </div>
+                <div class="header__menu-box">
+                    <img class="menu-box" src="./images/menu.svg" alt="">
+                </div>
             </div>
         </div>
     </header>
@@ -71,7 +76,38 @@
             </div>
             
             <div class="first-screen__info page-indent">
-                
+                <button class="button button--sunset">Заказать курс</button>
+
+                <ul class="counter">
+                    <li class="counter__item">
+                        <span class="counter__name">Учеников всего:</span>
+                        <span class="counter__count">200</span>
+                    </li>
+                    <li class="counter__item">
+                        <span class="counter__name">Успешно закончили курс:</span>
+                        <span class="counter__count">400</span>
+                    </li>
+                </ul>
+
+                <div class="first-screen__earned">
+                    <ul class="counter counter--earned">
+                        <li class="counter__item">
+                            <span class="counter__name">Заработано учениками:</span>
+                            <span class="counter__count">7403$</span>
+                        </li>
+                    </ul>
+
+                    <div class="progress-bar">
+                        <div class="progress-bar__progress"></div>
+                    </div>
+
+                    <ul class="counter counter--progress">
+                        <li class="counter__item">
+                            <span class="counter__name">0</span>
+                            <span class="counter__name">10000</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
